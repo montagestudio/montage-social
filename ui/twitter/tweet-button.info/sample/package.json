@@ -1,0 +1,17 @@
+{
+    "name": "sample",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/montagestudio/montage-social.git"
+    },
+    "scripts": {
+        "postinstall": "npm link ../../../.."
+    },
+    "dependencies": {
+        "montage": "~0.15.0",
+        "montage-social": "../../../.."
+    },
+    "private": true,
+    "bundle": ["ui/main.reel"]
+}
